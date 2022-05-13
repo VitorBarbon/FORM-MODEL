@@ -15,12 +15,26 @@ body {
 }
 
 .container {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0, .3);
+  text-align: center;
+  /* box-shadow: 0 2px 5px rgba(0,0,0, .3); */
   width: 400px;
   max-width: 100%;
   overflow: hidden;
+}
+
+.btn-create {
+  /* background: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%); */
+  background-color: #CACACA;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 10px; 
+}
+
+.btn-create:hover {
+  background-color: #FFFFFF;
+  border-color: #2ECC71;
 }
 
 .form {
